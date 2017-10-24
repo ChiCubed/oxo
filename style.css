@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
+
+body {
+	background-color: black;
+}
+
+img.header {
+	display: block;
+	margin: 0 auto;
+
+	width: 400px;
+	max-width: 100%;
+}
+
+img.btn {
+	transition: 0.2s ease;
+}
+
+img.btn:hover {
+	cursor: pointer;
+
+	transform: rotateZ(90deg) scale(1.2, 1.2);
+}
+
+canvas {
+	display: block;
+	margin: 0 auto;
+
+	width: 500px;
+	max-width: 100%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: 'Cabin', sans-serif;
+}
+
+p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}

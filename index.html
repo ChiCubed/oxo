@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script type="text/javascript" src="main.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<title>OXO</title>
+	</head>
+	<body onload="init()">
+		<img src="images/logo.png" style="margin: 50px auto;" class="header"/>
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<div style="text-align: center;">
+			<img src="images/circle.png" id="circle" class="btn" onclick="currentType=this.id;"/>
+			<img src="images/cross.png" id="cross" class="btn" onclick="currentType=this.id;"/>
+			<img src="images/square.png" id="square" class="btn" onclick="currentType=this.id;"/>
+		</div>
+	</body>
+</html>
